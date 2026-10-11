@@ -1,0 +1,27 @@
+C nmos(MOS) nmos(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C pmos(MOS) pmos(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "sram_schematic schematic SRAM_6T" "sram_schematic layout SRAM_6T"
+N Vdd Vdd
+N Q Q
+N Qb Qb
+N Gnd Gnd
+N Word Word
+N Bl Bl
+N Blbar Blbar
+I PM1 avD27_2
+I PM0 avD27_1
+I NM3 avD21_3
+I NM2 avD21_2
+I NM1 avD21_4
+I NM0 avD21_1
+

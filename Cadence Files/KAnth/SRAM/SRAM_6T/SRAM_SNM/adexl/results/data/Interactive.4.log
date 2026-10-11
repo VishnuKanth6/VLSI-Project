@@ -1,0 +1,154 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Aug 23 15:06:57 2026 
+Best design point: 1
+Design specs: 
+	SRAM_6T:SRAM_SNM:1	corner	C0_0 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		195.8m
+	SRAM_6T:SRAM_SNM:2	corner	C0_0 - 
+	SRAM_6T:SRAM_SNM:1	corner	C0_1 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		197.2m
+	SRAM_6T:SRAM_SNM:2	corner	C0_1 - 
+	SRAM_6T:SRAM_SNM:1	corner	C0_2 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		185.4m
+	SRAM_6T:SRAM_SNM:2	corner	C0_2 - 
+	SRAM_6T:SRAM_SNM:1	corner	C0_3 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		255.2m
+	SRAM_6T:SRAM_SNM:2	corner	C0_3 - 
+	SRAM_6T:SRAM_SNM:1	corner	C0_4 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		252.4m
+	SRAM_6T:SRAM_SNM:2	corner	C0_4 - 
+	SRAM_6T:SRAM_SNM:1	corner	C0_5 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		249m
+	SRAM_6T:SRAM_SNM:2	corner	C0_5 - 
+	SRAM_6T:SRAM_SNM:1	corner	C0_6 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		132.4m
+	SRAM_6T:SRAM_SNM:2	corner	C0_6 - 
+	SRAM_6T:SRAM_SNM:1	corner	C0_7 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		135.7m
+	SRAM_6T:SRAM_SNM:2	corner	C0_7 - 
+	SRAM_6T:SRAM_SNM:1	corner	C0_8 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		119.8m
+	SRAM_6T:SRAM_SNM:2	corner	C0_8 - 
+	SRAM_6T:SRAM_SNM:1	corner	C1_0 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		269.4m
+	SRAM_6T:SRAM_SNM:2	corner	C1_0 - 
+	SRAM_6T:SRAM_SNM:1	corner	C1_1 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		264.3m
+	SRAM_6T:SRAM_SNM:2	corner	C1_1 - 
+	SRAM_6T:SRAM_SNM:1	corner	C1_2 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		269.7m
+	SRAM_6T:SRAM_SNM:2	corner	C1_2 - 
+	SRAM_6T:SRAM_SNM:1	corner	C1_3 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		319.3m
+	SRAM_6T:SRAM_SNM:2	corner	C1_3 - 
+	SRAM_6T:SRAM_SNM:1	corner	C1_4 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		312.4m
+	SRAM_6T:SRAM_SNM:2	corner	C1_4 - 
+	SRAM_6T:SRAM_SNM:1	corner	C1_5 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		323.3m
+	SRAM_6T:SRAM_SNM:2	corner	C1_5 - 
+	SRAM_6T:SRAM_SNM:1	corner	C1_6 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		214.7m
+	SRAM_6T:SRAM_SNM:2	corner	C1_6 - 
+	SRAM_6T:SRAM_SNM:1	corner	C1_7 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		210.8m
+	SRAM_6T:SRAM_SNM:2	corner	C1_7 - 
+	SRAM_6T:SRAM_SNM:1	corner	C1_8 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		211.9m
+	SRAM_6T:SRAM_SNM:2	corner	C1_8 - 
+	SRAM_6T:SRAM_SNM:1	corner	C2_0 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		32.37m
+	SRAM_6T:SRAM_SNM:2	corner	C2_0 - 
+	SRAM_6T:SRAM_SNM:1	corner	C2_1 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		37.26m
+	SRAM_6T:SRAM_SNM:2	corner	C2_1 - 
+	SRAM_6T:SRAM_SNM:1	corner	C2_2 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		20.78m
+	SRAM_6T:SRAM_SNM:2	corner	C2_2 - 
+	SRAM_6T:SRAM_SNM:1	corner	C2_3 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		99.51m
+	SRAM_6T:SRAM_SNM:2	corner	C2_3 - 
+	SRAM_6T:SRAM_SNM:1	corner	C2_4 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		99.37m
+	SRAM_6T:SRAM_SNM:2	corner	C2_4 - 
+	SRAM_6T:SRAM_SNM:1	corner	C2_5 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		93.06m
+	SRAM_6T:SRAM_SNM:2	corner	C2_5 - 
+	SRAM_6T:SRAM_SNM:1	corner	C2_6 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		-33.47m
+	SRAM_6T:SRAM_SNM:2	corner	C2_6 - 
+	SRAM_6T:SRAM_SNM:1	corner	C2_7 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		-24.79m
+	SRAM_6T:SRAM_SNM:2	corner	C2_7 - 
+	SRAM_6T:SRAM_SNM:1	corner	C2_8 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		-51.97m
+	SRAM_6T:SRAM_SNM:2	corner	C2_8 - 
+	SRAM_6T:SRAM_SNM:1	corner	C3_0 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		32.37m
+	SRAM_6T:SRAM_SNM:2	corner	C3_0 - 
+	SRAM_6T:SRAM_SNM:1	corner	C3_1 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		37.26m
+	SRAM_6T:SRAM_SNM:2	corner	C3_1 - 
+	SRAM_6T:SRAM_SNM:1	corner	C3_2 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		20.78m
+	SRAM_6T:SRAM_SNM:2	corner	C3_2 - 
+	SRAM_6T:SRAM_SNM:1	corner	C3_3 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		99.51m
+	SRAM_6T:SRAM_SNM:2	corner	C3_3 - 
+	SRAM_6T:SRAM_SNM:1	corner	C3_4 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		99.37m
+	SRAM_6T:SRAM_SNM:2	corner	C3_4 - 
+	SRAM_6T:SRAM_SNM:1	corner	C3_5 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		93.06m
+	SRAM_6T:SRAM_SNM:2	corner	C3_5 - 
+	SRAM_6T:SRAM_SNM:1	corner	C3_6 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		-33.47m
+	SRAM_6T:SRAM_SNM:2	corner	C3_6 - 
+	SRAM_6T:SRAM_SNM:1	corner	C3_7 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		-24.79m
+	SRAM_6T:SRAM_SNM:2	corner	C3_7 - 
+	SRAM_6T:SRAM_SNM:1	corner	C3_8 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		-51.97m
+	SRAM_6T:SRAM_SNM:2	corner	C3_8 - 
+	SRAM_6T:SRAM_SNM:1	corner	C4_0 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		105m
+	SRAM_6T:SRAM_SNM:2	corner	C4_0 - 
+	SRAM_6T:SRAM_SNM:1	corner	C4_1 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		100.1m
+	SRAM_6T:SRAM_SNM:2	corner	C4_1 - 
+	SRAM_6T:SRAM_SNM:1	corner	C4_2 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		102.7m
+	SRAM_6T:SRAM_SNM:2	corner	C4_2 - 
+	SRAM_6T:SRAM_SNM:1	corner	C4_3 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		166.5m
+	SRAM_6T:SRAM_SNM:2	corner	C4_3 - 
+	SRAM_6T:SRAM_SNM:1	corner	C4_4 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		162.8m
+	SRAM_6T:SRAM_SNM:2	corner	C4_4 - 
+	SRAM_6T:SRAM_SNM:1	corner	C4_5 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		167.2m
+	SRAM_6T:SRAM_SNM:2	corner	C4_5 - 
+	SRAM_6T:SRAM_SNM:1	corner	C4_6 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		49.23m
+	SRAM_6T:SRAM_SNM:2	corner	C4_6 - 
+	SRAM_6T:SRAM_SNM:1	corner	C4_7 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		48.76m
+	SRAM_6T:SRAM_SNM:2	corner	C4_7 - 
+	SRAM_6T:SRAM_SNM:1	corner	C4_8 - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		42.73m
+	SRAM_6T:SRAM_SNM:2	corner	C4_8 - 
+	SRAM_6T:SRAM_SNM:1	corner	Nominal - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		153m
+	SRAM_6T:SRAM_SNM:2	corner	Nominal - 
+Design parameters: 
+	Bl		1.8
+	Blbar		0
+	vdd		1.8
+	word		0
+
+Interactive.4
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.4 completed. 
+Current time: Sun Aug 23 15:07:37 2026 

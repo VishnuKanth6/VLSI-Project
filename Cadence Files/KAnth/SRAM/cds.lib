@@ -1,0 +1,2 @@
+SOFTINCLUDE /home/vlsilab/cds.lib
+DEFINE SRAM_6T /home/vlsilab/KAnth/SRAM/SRAM_6T

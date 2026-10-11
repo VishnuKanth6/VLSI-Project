@@ -1,0 +1,148 @@
+*
+*
+*
+*                       LINUX           Sun Aug 23 20:57:44 2026
+*
+*
+*
+*  PROGRAM  advgen
+*
+*  Name           : advgen - Quantus - (64-bit)
+*  Version        : 22.1.1-p041
+*  Build Date     : Mon Apr 17 07:36:05 PDT 2023
+*
+*  HSPICE LIBRARY
+*
+*  QRC_TECH_DIR /home/install/FOUNDRY/analog/180nm/pv/assura/rcx 
+*
+*!LENGTH_UNITS METERS
+*
+*
+*
+
+*
+.SUBCKT sram_schematic Vdd Gnd Q Qb Bl Blbar Word
+*
+*
+*  caps2d version: 10
+*
+*
+*       TRANSISTOR CARDS
+*
+*
+MavD21_1	Bl#1	Word#1	Q#11	Gnd#14	nmos#20ivpcell#20gpdk180
++ L=1.8e-07	W=1e-06
++ AD=6e-13	AS=6e-13	PD=3.2e-06	PS=3.2e-06
++ simW=1e-06 fw=1e-06
+MavD21_2	Q#9	Qb#3	Gnd#11	Gnd#13	nmos#20ivpcell#20gpdk180
++ L=1.8e-07	W=2e-06
++ AD=1.2e-12	AS=1e-12	PD=5.2e-06	PS=5e-06
++ simW=2e-06 fw=2e-06
+MavD21_3	Qb#11	Q#4	Gnd#8	Gnd#10	nmos#20ivpcell#20gpdk180
++ L=1.8e-07	W=2e-06
++ AD=1.2e-12	AS=1e-12	PD=5.2e-06	PS=5e-06
++ simW=2e-06 fw=2e-06
+MavD21_4	Blbar#1	Word#3	Qb#9	Gnd#7
++ nmos#20ivpcell#20gpdk180	L=1.8e-07	W=1e-06
++ AD=6e-13	AS=6e-13	PD=3.2e-06	PS=3.2e-06	simW=1e-06 fw=1e-06
+MavD27_1	Q#10	Qb#1	Vdd#6	Vdd#3	pmos#20ivpcell#20gpdk180
++ L=1.8e-07	W=2e-06
++ AD=1.2e-12	AS=1e-12	PD=5.2e-06	PS=5e-06
++ simW=2e-06 fw=2e-06
+MavD27_2	Qb#10	Q#1	Vdd#1	Vdd#5	pmos#20ivpcell#20gpdk180
++ L=1.8e-07	W=2e-06
++ AD=1.2e-12	AS=1e-12	PD=5.2e-06	PS=5e-06
++ simW=2e-06 fw=2e-06
+*
+*
+*       RESISTOR AND CAP/DIODE CARDS
+*
+Rf1	Bl	Bl#1	4.065000	$mt1	$X=2.795 $Y=7.2125
+Rf2	Q#3	Q#6	5.327841	$mt1	$X=5.893 $Y=8.115
+Rf3	Q#6	Q#7	0.136171	$mt1	$X=5.155 $Y=8.425
+Rf4	Q#7	Q#8	0.996358	$mt1	$X=3.58 $Y=8.685
+Rf5	Q#8	Q	0.612655	$mt1	$X=0.978 $Y=8.685
+Rf6	Q#6	Q#9	3.118672	$mt1	$X=5.155 $Y=5.72
+Rf7	Q#7	Q#10	2.371249	$mt1	$X=5.155 $Y=9.5575
+Rf8	Q#8	Q#11	4.105125	$mt1	$X=2.005 $Y=7.525
+Rf9	Vdd#1	Vdd#2	1.763700	$mt1	$X=8.705 $Y=11.265
+Rf10	Vdd#2	Vdd	1.951028	$mt1	$X=8.555 $Y=12.705
+Rf11	Vdd	Vdd#4	0.627807	$mt1	$X=4 $Y=12.6625
+Rf12	Vdd#2	Vdd#5	1.763700	$mt1	$X=8.405 $Y=11.265
+Rf13	Vdd#4	Vdd#6	1.777778	$mt1	$X=4.1625 $Y=11.18
+Rf14	Vdd#3	Vdd#4	1.750000	$mt1	$X=3.875 $Y=11.18
+Rf15	Word#4	Word	9.409206	$mt1	$X=12.05 $Y=12.1675
+Rf16	Word	Word#2	6.241667	$mt1	$X=2.395 $Y=12.1575
+Rf17	Blbar	Blbar#1	3.825000	$mt1	$X=13.09 $Y=6.055
+Rf18	Qb	Qb#5	0.620988	$mt1	$X=12.7 $Y=8.26
+Rf19	Qb#5	Qb#6	0.638024	$mt1	$X=10.6225 $Y=8.26
+Rf20	Qb#6	Qb#7	0.602421	$mt1	$X=9.585 $Y=7.0675
+Rf21	Qb#7	Qb#4	5.390341	$mt1	$X=8.7225 $Y=5.825
+Rf22	Qb#5	Qb#9	4.027625	$mt1	$X=11.66 $Y=7.255
+Rf23	Qb#6	Qb#10	2.498749	$mt1	$X=9.585 $Y=9.3875
+Rf24	Qb#7	Qb#11	2.546172	$mt1	$X=9.585 $Y=4.575
+Rf25	Gnd#1	Gnd#2	1.004154	$mt1	$X=12.2755 $Y=0.15
+Rf26	Gnd#2	Gnd#3	0.681905	$mt1	$X=9.7325 $Y=0.15
+Rf27	Gnd#3	Gnd	0.555917	$mt1	$X=7.4755 $Y=0.15
+Rf28	Gnd	Gnd#4	0.892584	$mt1	$X=5.71 $Y=0.15
+Rf29	Gnd#4	Gnd#5	1.020238	$mt1	$X=2.44 $Y=0.15
+Rf30	Gnd#5	Gnd#6	0.329321	$mt1	$X=0.4025 $Y=0.15
+Rf31	Gnd#2	Gnd#7	4.925125	$mt1	$X=10.66 $Y=2.95
+Rf32	Gnd#3	Gnd#9	0.258389	$mt1	$X=8.555 $Y=1.0325
+Rf33	Gnd#9	Gnd#10	1.750000	$mt1	$X=8.555 $Y=2.625
+Rf34	Gnd#4	Gnd#12	0.258389	$mt1	$X=4.125 $Y=1.0325
+Rf35	Gnd#12	Gnd#13	1.750000	$mt1	$X=4.125 $Y=2.625
+Rf36	Gnd#5	Gnd#14	4.953875	$mt1	$X=1.005 $Y=3.0075
+Rf37	Gnd#8	Gnd#9	1.750000	$mt1	$X=8.805 $Y=2.625
+Rf38	Gnd#11	Gnd#12	1.750000	$mt1	$X=4.375 $Y=2.625
+Rg1	Word#1	Word#2	143.564514	$poly	$X=2.395 $Y=8.2795
+Rg2	Qb#1	Qb#2	180.674377	$poly	$X=4.765 $Y=8.103
+Rg3	Qb#2	Qb#3	90.882698	$poly	$X=4.765 $Y=4.625
+Rg4	Qb#2	Qb#4	54.090855	$poly	$X=6.2075 $Y=5.825
+Rg5	Q#1	Q#2	88.799370	$poly	$X=9.195 $Y=9.2905
+Rg6	Q#2	Q#3	44.153355	$poly	$X=8.0175 $Y=8.115
+Rg7	Q#2	Q#4	186.299377	$poly	$X=9.195 $Y=5.77
+Rg8	Word#3	Word#4	149.189514	$poly	$X=12.05 $Y=8.232
+*
+*       CAPACITOR CARDS
+*
+*
+C1	Vdd	Gnd	cmodel	4.94679e-16	$X=6.2235 $Y=4.5485
+C2	Q	Gnd	cmodel	1.43701e-16	$X=2.6645 $Y=5.641
+C3	Qb	Gnd	cmodel	1.38615e-16	$X=10.8225 $Y=5.346
+C4	Bl	Gnd	cmodel	1.68655e-16	$X=4.026 $Y=5.208
+C5	Blbar	Gnd	cmodel	9.92404e-17	$X=11.666 $Y=4.557
+C6	Word	Gnd	cmodel	1.07863e-15	$X=6.443 $Y=2.5595
+C7	Q#1	Gnd	cmodel	2.4942e-16	$X=7.843 $Y=5.3065
+C8	Qb#1	Gnd	cmodel	3.97749e-16	$X=5.848 $Y=4.26
+C9	Word#3	Gnd	cmodel	2.91598e-16	$X=9.323 $Y=3.4585
+C10	Q#4	Gnd	cmodel	4.12486e-16	$X=7.642 $Y=1.539
+C11	Qb#3	Gnd	cmodel	2.63653e-16	$X=5.7175 $Y=1.524
+C12	Word#1	Gnd	cmodel	3.16982e-16	$X=4.467 $Y=3.5385
+C13	Word#4	Gnd	cmodel	1.0029e-15	$X=7.451 $Y=1.8185
+C14	Qb#4	Gnd	cmodel	3.77185e-16	$X=6.8615 $Y=1.7685
+C15	Q#3	Gnd	cmodel	3.30946e-16	$X=6.6935 $Y=2.6315
+C16	Word#2	Gnd	cmodel	5.47428e-16	$X=5.399 $Y=3.022
+C17	Blbar#1	Gnd	cmodel	1.9061e-16	$X=8.5465 $Y=2.1045
+C18	Qb#9	Gnd	cmodel	2.40731e-16	$X=8.09 $Y=1.9415
+C19	Qb#11	Gnd	cmodel	4.2609e-16	$X=7.1445 $Y=0.6545
+C20	Vdd#5	Gnd	cmodel	6.63862e-16	$X=6.7035 $Y=0.771
+C21	Q#9	Gnd	cmodel	4.44643e-16	$X=6.3635 $Y=0.6305
+C22	Vdd#3	Gnd	cmodel	1.98313e-16	$X=6.435 $Y=0.885
+C23	Bl#1	Gnd	cmodel	2.24504e-16	$X=5.378 $Y=2.109
+C24	Q#11	Gnd	cmodel	3.10565e-16	$X=5.2815 $Y=1.9255
+C25	Qb#10	Gnd	cmodel	3.23829e-16	$X=7.15 $Y=2.1755
+C26	Q#10	Gnd	cmodel	2.89933e-16	$X=6.314 $Y=2.247
+C27	Vdd#6	Gnd	cmodel	2.04793e-16	$X=6.0805 $Y=2.72
+C28	Q#6	Gnd	cmodel	3.21884e-16	$X=6.175 $Y=2.157
+C29	Q#7	Gnd	cmodel	2.11182e-16	$X=5.7095 $Y=3.3905
+C30	Q#8	Gnd	cmodel	3.75844e-16	$X=5.1745 $Y=2.631
+C31	Qb#5	Gnd	cmodel	2.50956e-16	$X=8.388 $Y=2.8725
+C32	Qb#6	Gnd	cmodel	2.78767e-16	$X=7.52 $Y=2.6535
+C33	Qb#7	Gnd	cmodel	3.20924e-16	$X=7.477 $Y=1.8265
+C34	Qb#2	Gnd	cmodel	5.60875e-16	$X=6.0215 $Y=2.0895
+C35	Q#2	Gnd	cmodel	4.89701e-16	$X=7.4545 $Y=2.5955
+*
+*
+.ENDS sram_schematic
+*

@@ -1,0 +1,54 @@
+********************************************************************************
+Product   : Virtuoso(R) XOasis Out
+Program   : @(#)$CDS: oasisout version 6.1.8-64b 11/15/2022 19:26 (cpgbld01) $
+          : sub-version  IC6.1.8-64b.500.29 
+Started at: 23-Aug-2026  21:42:01
+User Name : vlsilab
+Host Name : cad3
+Directory : /home/vlsilab/KAnth/SRAM
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+INFO (XOASIS-217): Reading the layer map file, /home/install/FOUNDRY/analog/180nm/libs.oa22/gpdk180/gpdk180.layermap
+
+Summary of Options :
+library                                 SRAM_6T
+oasisFile                               sram_schematic.gds
+logFile                                 oasisOut.log
+techLib                                 gpdk180
+topCell                                 sram_schematic
+view                                    layout
+
+INFO (XOASIS-81072): Translating stdVia master gpdk180/M1_POLY1 as "M1_POLY1_CDNS_787501521820".
+INFO (XOASIS-81044): Translating design gpdk180/nmos/layout as "nmos_CDNS_787501521820".
+INFO (XOASIS-81044): Translating design gpdk180/pmos/layout as "pmos_CDNS_787501521821".
+INFO (XOASIS-81044): Translating design gpdk180/nmos/layout as "nmos_CDNS_787501521822".
+INFO (XOASIS-81044): Translating design SRAM_6T/sram_schematic/layout as "sram_schematic".
+WARNING (XOASIS-82025): You have not used the 'objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow or oaMarker. Any information about these objects will not be translated into the generated oasis file. Use the 'objectMap' option to translate/preserve these objects using XOasis. For details on the 'objectMap' option, refer to the "Design Data Translator's Reference" guide for XOasis.
+
+Summary of Objects Translated:
+	Scalar Instances:                       6
+	Array Instances:                        0
+	Polygons:                               0
+	Rectangles:                             87
+	Paths:                                  0
+	Pathsegs:                               34
+	Text:                                   0
+	Lines:                                  0
+	Dots:                                   0
+	Arcs:                                   0
+	Donuts:                                 0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Rows:                                   0
+	Markers:                                0
+	Custom Vias:                            0
+	Standard Vias                           4
+	Cells:                                  5
+
+Elapsed Time: 0.1s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 931KB
+INFO (XOASIS-234): Translation completed. '0' error(s) and '1' warning(s) found.

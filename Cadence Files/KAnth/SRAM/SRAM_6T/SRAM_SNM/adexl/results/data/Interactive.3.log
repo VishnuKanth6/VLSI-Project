@@ -1,0 +1,62 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Aug 23 15:04:35 2026 
+Best design point: 1
+Design specs: 
+	SRAM_6T:SRAM_SNM:1	corner	C0_0 - 
+	SRAM_6T:SRAM_SNM:1	corner	C0_1 - 
+	SRAM_6T:SRAM_SNM:1	corner	C0_2 - 
+	SRAM_6T:SRAM_SNM:1	corner	C0_3 - 
+	SRAM_6T:SRAM_SNM:1	corner	C0_4 - 
+	SRAM_6T:SRAM_SNM:1	corner	C0_5 - 
+	SRAM_6T:SRAM_SNM:1	corner	C0_6 - 
+	SRAM_6T:SRAM_SNM:1	corner	C0_7 - 
+	SRAM_6T:SRAM_SNM:1	corner	C0_8 - 
+	SRAM_6T:SRAM_SNM:1	corner	C1_0 - 
+	SRAM_6T:SRAM_SNM:1	corner	C1_1 - 
+	SRAM_6T:SRAM_SNM:1	corner	C1_2 - 
+	SRAM_6T:SRAM_SNM:1	corner	C1_3 - 
+	SRAM_6T:SRAM_SNM:1	corner	C1_4 - 
+	SRAM_6T:SRAM_SNM:1	corner	C1_5 - 
+	SRAM_6T:SRAM_SNM:1	corner	C1_6 - 
+	SRAM_6T:SRAM_SNM:1	corner	C1_7 - 
+	SRAM_6T:SRAM_SNM:1	corner	C1_8 - 
+	SRAM_6T:SRAM_SNM:1	corner	C2_0 - 
+	SRAM_6T:SRAM_SNM:1	corner	C2_1 - 
+	SRAM_6T:SRAM_SNM:1	corner	C2_2 - 
+	SRAM_6T:SRAM_SNM:1	corner	C2_3 - 
+	SRAM_6T:SRAM_SNM:1	corner	C2_4 - 
+	SRAM_6T:SRAM_SNM:1	corner	C2_5 - 
+	SRAM_6T:SRAM_SNM:1	corner	C2_6 - 
+	SRAM_6T:SRAM_SNM:1	corner	C2_7 - 
+	SRAM_6T:SRAM_SNM:1	corner	C2_8 - 
+	SRAM_6T:SRAM_SNM:1	corner	C3_0 - 
+	SRAM_6T:SRAM_SNM:1	corner	C3_1 - 
+	SRAM_6T:SRAM_SNM:1	corner	C3_2 - 
+	SRAM_6T:SRAM_SNM:1	corner	C3_3 - 
+	SRAM_6T:SRAM_SNM:1	corner	C3_4 - 
+	SRAM_6T:SRAM_SNM:1	corner	C3_5 - 
+	SRAM_6T:SRAM_SNM:1	corner	C3_6 - 
+	SRAM_6T:SRAM_SNM:1	corner	C3_7 - 
+	SRAM_6T:SRAM_SNM:1	corner	C3_8 - 
+	SRAM_6T:SRAM_SNM:1	corner	C4_0 - 
+	SRAM_6T:SRAM_SNM:1	corner	C4_1 - 
+	SRAM_6T:SRAM_SNM:1	corner	C4_2 - 
+	SRAM_6T:SRAM_SNM:1	corner	C4_3 - 
+	SRAM_6T:SRAM_SNM:1	corner	C4_4 - 
+	SRAM_6T:SRAM_SNM:1	corner	C4_5 - 
+	SRAM_6T:SRAM_SNM:1	corner	C4_6 - 
+	SRAM_6T:SRAM_SNM:1	corner	C4_7 - 
+	SRAM_6T:SRAM_SNM:1	corner	C4_8 - 
+	SRAM_6T:SRAM_SNM:1	corner	Nominal - 
+Design parameters: 
+	Bl		1.8
+	Blbar		0
+	vdd		1.8
+	word		0
+
+Interactive.3
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.3 completed. 
+Current time: Sun Aug 23 15:04:58 2026 

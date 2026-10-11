@@ -1,0 +1,14 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'sram_schematic layout SRAM_6T':
+  info: Assign pin label "Gnd" at (6.8450, 0.1500) to layer `M1term'.
+  info: Assign pin label "Q" at (0.1500, 8.6850) to layer `M1term'.
+  info: Assign pin label "Bl" at (2.7950, 7.9100) to layer `M1term'.
+  info: Assign pin label "Word" at (2.3950, 14.0200) to layer `M1term'.
+  info: Assign pin label "Vdd" at (4.0000, 13.3950) to layer `M1term'.
+  info: Assign pin label "Blbar" at (13.5400, 6.0550) to layer `M1term'.
+  info: Assign pin label "Qb" at (13.5400, 8.2600) to layer `M1term'.
+
+***** End of Label Report *****
+

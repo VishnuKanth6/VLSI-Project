@@ -1,0 +1,3 @@
+#!/bin/sh -f
+/home/install/ASSURA41/tools.lnx86/assura/bin/assura /home/vlsilab/KAnth/SRAM/LVS.rsf -cdslib /home/vlsilab/KAnth/SRAM/cds.lib -gui
+exit $?

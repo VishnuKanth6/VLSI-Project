@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Aug 23 15:04:01 2026 
+Best design point: 1
+Design specs: 
+	SRAM_6T:SRAM_SNM:1	corner	Nominal - 
+Design parameters: 
+	Bl		1.8
+	Blbar		0
+	vdd		1.8
+	word		0
+
+Interactive.2
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.2 completed. 
+Current time: Sun Aug 23 15:04:01 2026 

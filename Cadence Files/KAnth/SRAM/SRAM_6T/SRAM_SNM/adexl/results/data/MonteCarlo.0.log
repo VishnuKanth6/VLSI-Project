@@ -1,0 +1,24 @@
+Starting Monte Carlo Sampling...
+
+Current time: Sun Aug 23 15:12:54 2026 
+
+Variation: All
+Sampling Method: Random
+Seed: 
+
+MonteCarlo.0
+Number of points completed: 200
+Number of simulation errors: 0
+MonteCarlo.0 completed. 
+Current time: Sun Aug 23 15:13:11 2026 
+Monte Carlo Sampling yield summary:
+Number of spec values are in this yield data: 1
+SRAM_6T:SRAM_SNM:3	Nominal - 
+	delay(?wf1 v("Q" ?result "dc") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 v("Qb" ?result "dc") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil):	Yield	100%
+		Min 0.0488038	Max 0.275631	Mean 0.153624	Number of errors 0
+
+SRAM_6T:SRAM_SNM:3
+	Overall Yield	100%	Number of points passed	200	Total number of points	200
+
+Estimated yield = 100% (200/200), 0 errors
+Estimated yield (No opregions) = 100% (200/200)
